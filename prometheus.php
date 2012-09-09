@@ -1,6 +1,22 @@
 <?php
 
 /**
+ * wp-less
+ * https://github.com/sanchothefat/wp-less
+ */
+if ( ! class_exists( 'wp_less' ) ) {
+    require_once( 'wp-less/wp-less.php' );
+}
+
+/**
+ * wpthumb
+ * https://github.com/humanmade/WPThumb
+ */
+if ( ! function_exists('wpthumb') ) {
+    require_once( 'WPThumb/wpthumb.php' );
+}
+
+/**
  * respond
  * https://github.com/scottjehl/Respond
  */
