@@ -1,0 +1,66 @@
+/*
+------------------- TOOLS -------------------
+*/
+
+/* pie - http://css3pie.com */
+
+* {
+    behavior: url(../js/PIE.htc);
+}
+
+/* clearfix */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*
+
+assistive text
+
+display:none would not provide the content at all on a screen reader or
+other assistive devices, use positioning instead.
+
+*/
+
+.assistive-text {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+/* alignment */
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+/*
+
+mobile
+
+rendering and hiding content is not perfect, but it is very practical. Use
+a single universal class to avoid lists of disply:none;
+
+*/
+
+.mobile {
+    display:none;
+}
