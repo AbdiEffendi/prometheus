@@ -294,20 +294,20 @@
 
         <div class="prometheus-label prometheus-div" style="font-weight:bold">200px img with class .alignleft</div>
 
-        <p><img class="alignleft" src="<?php echo get_template_directory_uri(); ?>/prometheus/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
+        <p><img class="alignleft" src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
 
         <div class="prometheus-label prometheus-div" style="font-weight:bold">200px img with class .alignright</div>
 
-        <p><img class="alignright" src="<?php echo get_template_directory_uri(); ?>/prometheus/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
+        <p><img class="alignright" src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
 
         <div class="prometheus-label prometheus-div" style="font-weight:bold">940px img</div>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/prometheus/sample.jpg" />
+        <img src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample.jpg" />
 
         <div class="prometheus-label prometheus-div" style="font-weight:bold">940px img in 50% width div and class .aligncenter</div>
 
         <div class="aligncenter" style="width:50%">
-            <img src="<?php echo get_template_directory_uri(); ?>/prometheus/sample.jpg" />
+            <img src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample.jpg" />
         </div>
 
         </div>
