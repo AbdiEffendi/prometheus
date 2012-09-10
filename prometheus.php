@@ -12,7 +12,7 @@ if ( ! class_exists( 'wp_less' ) ) {
  * wpthumb
  * https://github.com/humanmade/WPThumb
  */
-if ( ! function_exists('wpthumb') ) {
+if ( ! class_exists('WP_Thumb') ) {
     require_once( 'WPThumb/wpthumb.php' );
 }
 
