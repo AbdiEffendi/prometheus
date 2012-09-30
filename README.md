@@ -7,7 +7,9 @@ Front-end foundation for WordPress projects.
 
 Add this repository to your theme by submoduling it in.
 
-`git submodule add git@github.com:noeltock/prometheus.git`
+```
+git submodule add git@github.com:noeltock/prometheus.git
+```
 
 ## 2) LESS
 
