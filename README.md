@@ -3,7 +3,9 @@ prometheus
 
 Front-end foundation for WordPress projects.
 
-## 1) Adding it to your theme
+## Installation
+
+### 1) Adding it to your theme
 
 Add this repository to your theme by submoduling it in.
 
@@ -11,7 +13,7 @@ Add this repository to your theme by submoduling it in.
 git submodule add git@github.com:noeltock/prometheus.git
 ```
 
-## 2) LESS
+### 2) LESS
 
 This provides a base foundation for styling, including normalize, mixins, etc. Can be included at the top of your master LESS stylesheets:
 
@@ -19,7 +21,7 @@ This provides a base foundation for styling, including normalize, mixins, etc. C
 @import 'prometheus/less/prometheus.less' 
 ```
 
-## 3) Tools
+### 3) Tools
 
 To pull in wp-less and wpthumb, you can include this line near the top of your `functions.php`
 
@@ -27,7 +29,9 @@ To pull in wp-less and wpthumb, you can include this line near the top of your `
 require_once( 'prometheus/prometheus.php' );
 ```
 
-## WPThumb
+## Other Information
+
+### WPThumb
 
 I don't like default resizing or timthumb, so I use WPThumb in my themes, like this:
 
@@ -54,6 +58,6 @@ $arg_defaults = array(
 );
 ```
 
-## JavaScript
+### JavaScript
 
 Includes various polyfill's/fixes for older browsers.
