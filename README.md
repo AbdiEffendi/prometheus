@@ -3,7 +3,13 @@ prometheus
 
 Front-end foundation for WordPress projects.
 
-## LESS
+## 1) Adding it to your theme
+
+Add this repository to your theme by submoduling it in.
+
+`git submodule add git@github.com:noeltock/prometheus.git`
+
+## 2) LESS
 
 This provides a base foundation for styling, including normalize, mixins, etc. Can be included at the top of your master LESS stylesheets:
 
@@ -11,7 +17,7 @@ This provides a base foundation for styling, including normalize, mixins, etc. C
 @import 'prometheus/less/prometheus.less' 
 ```
 
-## Tools
+## 3) Tools
 
 To pull in wp-less and wpthumb, you can include this line near the top of your `functions.php`
 
