@@ -11,6 +11,14 @@ This provides a base foundation for styling, including normalize, mixins, etc. C
 @import 'prometheus/less/prometheus.less' 
 ```
 
+## Tools
+
+To pull in wp-less and wpthumb, you can include this line near the top of your `functions.php`
+
+```php
+require_once( 'prometheus/prometheus.php' );
+```
+
 ## WPThumb
 
 I don't like default resizing or timthumb, so I use WPThumb in my themes, like this:
