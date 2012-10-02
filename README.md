@@ -1,7 +1,7 @@
 prometheus
 ==========
 
-Front-end foundation for WordPress projects.
+Front-end foundation for WordPress projects including a page template to view all your styles on one go.
 
 ## Installation
 
