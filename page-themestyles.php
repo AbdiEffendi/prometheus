@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Style Guide
+ * Template Name: Theme Styles
  *
  * @package NT
  * @since NT 1.0
@@ -65,6 +65,13 @@
             margin:2%;
             width:46%;
             float:left;
+        }
+
+        @media all and (max-width: 640px) {
+            .prometheus-block {
+                margin:2%;
+                width:96%;
+            }
         }
 
         .prometheus-div {
@@ -290,27 +297,49 @@
         </div>
         <div class="prometheus-block">
 
-        <h1 class="prometheus-underline">Images</h1>
+            <h1 class="prometheus-underline">Images</h1>
 
-        <div class="prometheus-label prometheus-div" style="font-weight:bold">200px img with class .alignleft</div>
+            <div class="prometheus-label prometheus-div" style="font-weight:bold">200px img with class .alignleft</div>
 
-        <p><img class="alignleft" src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
+            <p><img class="alignleft" src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
 
-        <div class="prometheus-label prometheus-div" style="font-weight:bold">200px img with class .alignright</div>
+            <div class="prometheus-label prometheus-div" style="font-weight:bold">200px img with class .alignright</div>
 
-        <p><img class="alignright" src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
+            <p><img class="alignright" src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample-inline.jpg" /> Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor vestibulum leo, in interdum dui venenatis sed. Proin cursus ultricies fermentum. Aliquam id sapien at lectus auctor sodales. Aliquam lectus metus, ornare non dapibus ut, molestie a nibh. Maecenas quis diam mauris.</p>
 
-        <div class="prometheus-label prometheus-div" style="font-weight:bold">940px img</div>
+            <div class="prometheus-label prometheus-div" style="font-weight:bold">940px img</div>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample.jpg" />
-
-        <div class="prometheus-label prometheus-div" style="font-weight:bold">940px img in 50% width div and class .aligncenter</div>
-
-        <div class="aligncenter" style="width:50%">
             <img src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample.jpg" />
-        </div>
+
+            <div class="prometheus-label prometheus-div" style="font-weight:bold">940px img in 50% width div and class .aligncenter</div>
+
+            <div class="aligncenter" style="width:50%">
+                <img src="<?php echo get_template_directory_uri(); ?>/prometheus/images/sample.jpg" />
+            </div>
 
         </div>
+
+        <div class="prometheus-block">
+
+        <h1 class="prometheus-underline">Plugins</h1>
+
+            <p>WP SEO Breadcrumbs</p>
+
+                <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="#" rel="v:url" property="v:title">Home</a></span>   »   <span typeof="v:Breadcrumb"><a href="#" rel="v:url" property="v:title">Category</a></span>   »   <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title">Page</span></span></span></p>
+
+            <p>WP-Paginate</p>
+
+            <ol class="wp-paginate">
+                <li><a href="#" class="prev">&laquo;</a></li>
+                <li><span class='page current'>1</span></li>
+                <li><a href='#' title='2' class='page'>2</a></li>
+                <li><a href='#' title='3' class='page'>3</a></li>
+                <li><a href='#' title='4' class='page'>4</a></li>
+                <li><a href='#' title='5' class='page'>5</a></li>
+                <li><a href='#' title='6' class='page'>6</a></li>
+                <li><a href="#" class="next">&raquo;</a></li>
+            </ol>
+
         </div>
 
 </body>

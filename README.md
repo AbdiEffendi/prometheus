@@ -31,6 +31,16 @@ require_once( 'prometheus/prometheus.php' );
 
 ## Other Information
 
+### Theme Styles
+
+To see the majority of selectors and DOM elements on a single page (instead of having to create dummy content every time), you can select the following page template:
+
+```
+Theme Styles
+```
+
+To view an example, check out the very simple [noeltock.com theme styles](http://www.noeltock.com/theme-styles/)
+
 ### WPThumb
 
 I don't like default resizing or timthumb, so I use WPThumb in my themes, like this:
