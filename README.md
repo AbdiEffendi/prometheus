@@ -31,7 +31,7 @@ require_once( 'prometheus/prometheus.php' );
 
 ## Other Information
 
-### Theme Styles
+### View your Theme Styles
 
 To see the majority of selectors and DOM elements on a single page (instead of having to create dummy content every time), you can select the following page template:
 
