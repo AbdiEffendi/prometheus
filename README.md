@@ -18,7 +18,7 @@ git submodule add git@github.com:noeltock/prometheus.git
 This provides a base foundation for styling, including normalize, mixins, etc. Can be included at the top of your master LESS stylesheets:
 
 ```css
-@import 'prometheus/less/prometheus.less' 
+@import 'prometheus/prometheus.less' 
 ```
 
 ### 3) Tools
