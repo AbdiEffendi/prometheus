@@ -15,6 +15,12 @@
     box-sizing: @sizing;
 }
 
+.font-size(@size){
+    @remsize: @size / 10;
+    font-size:~"@{size}px";
+    font-size:~"@{remsize}rem";
+}
+
 /*
 ------------------- TWITTER BOOTSTRAP CSS3 MIXINS -------------------
 */
