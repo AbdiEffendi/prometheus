@@ -21,7 +21,7 @@ if ( ! class_exists('WP_Thumb') ) {
  * https://github.com/scottjehl/Respond
  */
 function prometheus_respond() {
-    wp_enqueue_style( 'respond-js', get_template_directory() . '/prometheus/js/respond.min.js', null, '1.1.0', 'all' );
+    wp_enqueue_script( 'respond-js', get_template_directory_uri() . '/prometheus/js/respond.min.js', null, '1.1.0', 'all' );
 }
 
 /**
@@ -29,7 +29,7 @@ function prometheus_respond() {
  * https://github.com/aFarkas/html5shiv
  */
 function prometheus_html5shiv() {
-    wp_enqueue_style( 'html5shiv-js', get_template_directory() . '/prometheus/js/html5shiv.js', null, '3.6.2', 'all' );
+    wp_enqueue_script( 'html5shiv-js', get_template_directory_uri() . '/prometheus/js/html5shiv.js', null, '3.6.2', 'all' );
 }
 
 /**
@@ -37,7 +37,15 @@ function prometheus_html5shiv() {
  * https://github.com/keithclark/selectivizr
  */
 function prometheus_selectivizr() {
-    wp_enqueue_style( 'selectivizr-js', get_template_directory() . '/prometheus/js/selectivizr-min.js', null, '1.0.3', 'all' );
+    wp_enqueue_script( 'selectivizr-js', get_template_directory_uri() . '/prometheus/js/selectivizr-min.js', null, '1.0.3', 'all' );
+}
+
+/**
+ * modernizr
+ * https://www.modernizr.com
+ */
+function prometheus_modernizr() {
+    wp_enqueue_script( 'modernizr-js', get_template_directory_uri() . '/prometheus/js/modernizr.min.js', null, '1.0.3', 'all' );
 }
 
 ?>
